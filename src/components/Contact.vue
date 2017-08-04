@@ -2,6 +2,10 @@
 	<div class="container">
 		<form action="" role="form">
 			<div class="form-group">
+				<label for="title">Title</label>
+				<input type="text" name="title" id="" class="form-control" v-model="title">		
+			</div>
+			<div class="form-group">
 				<label for="fname">First Name</label>
 				<input type="text" name="fname" id="" class="form-control" v-model="fname">		
 			</div>
@@ -25,6 +29,7 @@
 export default {
 	data () {
 		return {
+			title: null,
 			fname: null,
 			lname: null,
 			password: null
