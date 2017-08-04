@@ -2,18 +2,21 @@
   <div id="app">
     <home></home>
     <contact></contact>
+    <bottom></bottom>
   </div>
 </template>
 
 <script>
 import Home from './components/Home'
 import Contact from './components/Contact'
+import Bottom from './components/Bottom'
 
 export default {
   name: 'app',
   components: {
     Home,
-    Contact
+    Contact,
+    Bottom
   }
 }
 </script>
